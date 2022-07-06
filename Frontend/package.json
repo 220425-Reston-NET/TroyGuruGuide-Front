@@ -1,0 +1,53 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.20.0",
+    "chart.js": "^2.9.4",
+    "html-to-image": "^1.9.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.23",
+    "mui": "^0.0.1",
+    "react": "^16.14.0",
+    "react-chartjs-2": "^2.10.0",
+    "react-dom": "^16.14.0",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.1.21",
+    "react-icons": "^4.3.1",
+    "react-redux": "^8.0.1",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "3.4.3",
+    "reactstrap": "^9.0.2",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}
